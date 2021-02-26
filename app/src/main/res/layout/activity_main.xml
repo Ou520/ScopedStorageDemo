@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/browseAlbum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="获取相册中的图片"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/addImageToAlbum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="将图片添加到相册"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/pickFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="打开文件选择器"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/downloadFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="下载文件到Download目录"
+        android:textAllCaps="false" />
+
+
+
+
+</LinearLayout>
